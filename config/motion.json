@@ -1,0 +1,11 @@
+{
+  "stars": { 
+    "countLight": 0, 
+    "countDark": 140, 
+    "parallaxMultiplier": 0.008 
+  },
+  "sun": { 
+    "rotationSeconds": 12, 
+    "parallaxMultiplier": 0.03 
+  }
+}

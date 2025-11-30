@@ -1,0 +1,47 @@
+{
+  "name": "Dinesh V G",
+  "title": "Java Full Stack Developer",
+  "summary": "Developer focused on clean code and scalable web apps using Spring Boot and React (Vite). Experienced in REST APIs, unit testing, Git, and MySQL. Agile collaborator delivering user-friendly solutions.",
+  "contacts": {
+    "email": "satdinu08@gmail.com",
+    "phone": "+91 76049 40354",
+    "linkedin": "https://www.linkedin.com/in/dinesh-v-g-a08b5b251/",
+    "github": "https://github.com/username"
+  },
+  "experience": [
+    {
+      "role": "Java Full Stack Developer",
+      "company": "Cognizant Technology Solutions",
+      "period": "June 2025 – present",
+      "highlights": [
+        "Developed and maintained full-stack web applications with backend logic, API integration, and responsive UI.",
+        "Built scalable features, wrote unit tests (JUnit/Mockito), ensured smooth data flow across layers.",
+        "Collaborated in Agile teams to deliver clean, efficient, user-friendly solutions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Digital Bookstore Management System",
+      "summary": "E-commerce bookstore built with microservices—user management, catalog, orders, reviews.",
+      "highlights": [
+        "7 microservices with Spring Boot, service discovery via Netflix Eureka, routing via Spring Cloud Gateway.",
+        "Role-based auth, shopping cart, admin portal.",
+        "OpenFeign for inter-service calls; JPA + MySQL for persistence."
+      ],
+      "tags": ["Spring Boot", "Microservices", "React", "MySQL", "OpenFeign", "Eureka", "Gateway"]
+    }
+  ],
+  "education": [
+    { "degree": "B.E./B.Tech (Sathyabama University)", "years": "2021–2025", "cgpa": "8.5/10.0" }
+  ],
+  "skills": {
+    "frontend": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+    "backend": ["Java", "Spring Boot", "SQL", "MySQL"],
+    "testing": ["JUnit", "Mockito", "Postman"],
+    "tools": ["Git", "Docker"]
+  },
+  "leadership": [
+    "Class Representative during training—coordinated schedules and feedback for a productive environment."
+  ]
+}

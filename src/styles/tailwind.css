@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    @apply bg-navy text-offwhite;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center rounded-lg bg-violet px-6 py-3 font-medium text-white shadow-md transition-all duration-300
+           hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[0_0_25px_rgba(124,77,255,0.55)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-mint;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center rounded-lg border border-white/30 bg-white/10 px-6 py-3 font-medium text-white
+           backdrop-blur transition-all duration-300 hover:bg-white/20 hover:-translate-y-0.5 
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-mint;
+  }
+  
+  .glass-card {
+    @apply bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl shadow-lg;
+  }
+  
+  .container {
+    @apply max-w-6xl mx-auto;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
