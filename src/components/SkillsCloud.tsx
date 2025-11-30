@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { fadeUp, staggerContainer, slideX } from "../utils/motion";
+import { fadeUp, staggerContainer } from "../utils/motion";
 import { useReducedMotion } from "../utils/useReducedMotion";
 import data from "../data/site.json";
 

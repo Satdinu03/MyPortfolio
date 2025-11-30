@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { fadeUp, staggerContainer, slideX, slideInLeft, slideInRight, springPop } from "../utils/motion";
+import { fadeUp, staggerContainer, slideX, slideInRight, springPop } from "../utils/motion";
 import { useMagnetic } from "../utils/useMagnetic";
 import { useReducedMotion } from "../utils/useReducedMotion";
 import data from "../data/site.json";

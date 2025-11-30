@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React from 'react'
 import CelestialBackground from './components/CelestialBackground'
 import HeaderResponsive from './components/HeaderResponsive'
 import ScrollProgress from './components/ScrollProgress'
